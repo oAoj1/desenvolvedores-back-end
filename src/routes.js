@@ -6,7 +6,6 @@ const PriorityController = require('./controllers/PriorityController.js')
 const ContentController = require('./controllers/ContentController.js')
 
 //Rota desenvolvedores
-routes.get('/', DevsController.principal)
 routes.get('/dev', DevsController.show)
 routes.get('/dev/:id', DevsController.showID)
 routes.post('/dev', DevsController.create)
