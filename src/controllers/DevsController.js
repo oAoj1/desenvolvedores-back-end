@@ -1,9 +1,5 @@
 const Devs = require('../models/DevsData.js')
 
-function principal(req,res){
-    res.send('Digite /dev na URL para acessar os dados')
-}
-
 async function show(req,res){
     try{
         const listaDevs = await Devs.find()
