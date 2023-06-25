@@ -67,7 +67,6 @@ async function delet(req,res){
 }
 
 module.exports = {
-    principal,
     show,
     showID,
     create,
